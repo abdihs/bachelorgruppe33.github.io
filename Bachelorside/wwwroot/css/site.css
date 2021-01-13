@@ -1,0 +1,62 @@
+
+@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+.main {
+    text-align: center;
+}
+
+
+
+.teamet {
+    margin: auto;
+    width: 80%;
+}
+
+
+
+.ramme {
+    float: left;
+    width: 15%;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .ramme {
+        width: 100%;
+        display: block;
+        margin-left: 1%;
+    }
+}
+
+
+
+.kortet {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.dokumenter {
+    position: relative;
+    display: block;
+    top: 100px;
+    margin-left: 10%;
+    width: 80%;
+    height: 30%;
+}
+
+
+.doku {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+
+.tomRute {
+    border: solid;
+    border-color: black;
+}
